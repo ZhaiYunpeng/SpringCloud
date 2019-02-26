@@ -1,0 +1,13 @@
+{
+  "properties": [
+    {
+      "name": "feign.hystrix.management.endpoints.web.exposure.include",
+      "type": "java.lang.String",
+      "description": "Description for feign.hystrix.management.endpoints.web.exposure.include."
+    },
+    {
+      "name": "feign.hystrix.management.endpoint.health.show-details",
+      "type": "java.lang.String",
+      "description": "Description for feign.hystrix.management.endpoint.health.show-details."
+    }
+  ] }
