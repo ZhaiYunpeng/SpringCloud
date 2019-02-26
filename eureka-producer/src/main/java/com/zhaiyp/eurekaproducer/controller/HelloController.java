@@ -19,7 +19,7 @@ public class HelloController {
     }
     @RequestMapping(value = "/hello2")
     String HelloTest2(@RequestParam String name){
-        System.out.println("HelloTest2,This first producer!");
+        System.out.println("Hello2,This first producer!");
         return "Welcome "+name + ",This first producer!HelloTest2!";
     }
 }
